@@ -1,4 +1,4 @@
-osx-defaults_defaults "Don’t group windows by application in Mission Control" do
+osxdefaults_defaults "Don’t group windows by application in Mission Control" do
   domain 'com.apple.dock'
   key 'expose-group-by-app'
   boolean false

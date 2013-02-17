@@ -1,4 +1,4 @@
-osx-defaults_defaults "Enable full keyboard access for all controls" do
+osxdefaults_defaults "Enable full keyboard access for all controls" do
   domain 'NSGlobalDomain'
   key 'AppleKeyboardUIMode'
   integer 3

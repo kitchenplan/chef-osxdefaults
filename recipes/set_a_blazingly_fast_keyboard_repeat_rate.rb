@@ -1,10 +1,10 @@
-osx-defaults_defaults "Set a blazingly fast keyboard repeat rate" do
+osxdefaults_defaults "Set a blazingly fast keyboard repeat rate" do
   domain 'NSGlobalDomain'
   key 'KeyRepeat'
   integer 0
 end
 
-osx-defaults_defaults "Set a blazingly fast keyboard repeat rate" do
+osxdefaults_defaults "Set a blazingly fast keyboard repeat rate" do
   domain 'NSGlobalDomain'
   key 'InitialKeyRepeat'
   integer 0

@@ -1,4 +1,4 @@
-osx-defaults_defaults "Check for software updates daily, not just once per week" do
+osxdefaults_defaults "Check for software updates daily, not just once per week" do
   domain 'com.apple.SoftwareUpdate'
   key 'ScheduleFrequency'
   integer 1

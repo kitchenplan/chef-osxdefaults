@@ -1,4 +1,4 @@
-osx-defaults_defaults "Finder: allow text selection in Quick Look" do
+osxdefaults_defaults "Finder: allow text selection in Quick Look" do
   domain 'com.apple.finder'
   key 'QLEnableTextSelection'
   boolean true

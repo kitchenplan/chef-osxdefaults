@@ -1,4 +1,4 @@
-osx-defaults_defaults "Disable the warning before emptying the Trash" do
+osxdefaults_defaults "Disable the warning before emptying the Trash" do
   domain 'com.apple.finder'
   key 'WarnOnEmptyTrash'
   boolean false

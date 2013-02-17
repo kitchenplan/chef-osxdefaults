@@ -1,4 +1,4 @@
-osx-defaults_defaults "Enable spring loading for all Dock items" do
+osxdefaults_defaults "Enable spring loading for all Dock items" do
   domain 'com.apple.dock'
   key 'enable-spring-load-actions-on-all-items'
   boolean true

@@ -1,4 +1,4 @@
-osx-defaults_defaults "Disable the warning when changing a file extension" do
+osxdefaults_defaults "Disable the warning when changing a file extension" do
   domain 'com.apple.finder'
   key 'FXEnableExtensionChangeWarning'
   boolean false

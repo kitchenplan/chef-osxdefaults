@@ -1,4 +1,4 @@
-osx-defaults_defaults "When performing a search, search the current folder by default" do
+osxdefaults_defaults "When performing a search, search the current folder by default" do
   domain 'com.apple.finder'
   key 'FXDefaultSearchScope'
   string "SCcf"
