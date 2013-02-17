@@ -1,7 +1,7 @@
-name             'osx-defaults'
-maintainer       'YOUR_COMPANY_NAME'
-maintainer_email 'YOUR_EMAIL'
-license          'All rights reserved'
-description      'Installs/Configures osx-defaults'
+name             'osxdefaults'
+maintainer       'Roderik van der Veer'
+maintainer_email 'roderik@vanderveer.be'
+license          'Apache 2.0'
+description      'Installs/Configures osx defaults'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
-version          '0.1.0'
+version          '0.0.1'
