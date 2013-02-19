@@ -13,5 +13,5 @@ end
 osxdefaults_defaults "Set the computer name" do
   domain 'com.apple.smb.server'
   key 'NetBIOSName'
-  value node['osxdefaults']['computername']
+  string node['osxdefaults']['computername']
 end
