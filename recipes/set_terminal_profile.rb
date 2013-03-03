@@ -26,5 +26,5 @@ osxdefaults_defaults "Startup Window Settings" do
   domain 'com.apple.Terminal'
   key 'Startup Window Settings'
   string node["osxdefaults"]["terminal"]["profile"]
-  not_if "defaults read \"com.apple.Terminal\" \"Default Window Settings\" | grep ^#{node["osxdefaults"]["terminal"]["profile"]}$", :user => node['current_user']
+  not_if "defaults read \"com.apple.Terminal\" \"Startup Window Settings\" | grep ^#{node["osxdefaults"]["terminal"]["profile"]}$", :user => node['current_user']
 end
