@@ -11,3 +11,5 @@ Contributing
 3. Write you change
 4. Run the tests, ensuring they all pass (on Travis)
 5. Submit a Pull Request using Github
+
+[![Analytics](https://ga-beacon.appspot.com/UA-46288146-2/kitchenplan/chef-osxdefaults)](https://github.com/igrigorik/ga-beacon)
