@@ -1,3 +1,3 @@
 execute "enable Remote Desktop" do
-    command "kickstart #{node['osxdefaults']['remote_desktop_command']}"
+  command "sudo #{node['osxdefaults']['remote_desktop_path']} #{node['osxdefaults']['remote_desktop_config']}"
 end
