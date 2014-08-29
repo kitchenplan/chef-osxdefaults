@@ -1,3 +1,5 @@
-script: "gem install foodcritic && foodcritic -f any ."
+language: ruby
+install: "gem install foodcritic"
+script: "foodcritic -f any ."
 rvm:
   - 1.9.3
