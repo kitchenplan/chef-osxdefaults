@@ -1,4 +1,4 @@
-osxdefaults_defaults "Show all files in Finder" do
+osxdefaults_defaults "Show status bar in Finder" do
   domain 'com.apple.finder'
   key 'ShowStatusBar'
   boolean true
